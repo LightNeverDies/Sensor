@@ -1,0 +1,32 @@
+#sensorList {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #sensorList td, #sensorList th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .click{
+    cursor: pointer;
+  }
+
+  h1{
+    display:flex;
+    justify-content: center;
+  }
+
+
+  #sensorList tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #sensorList tr:hover {background-color: #ddd;}
+  
+  #sensorList th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8B0000;
+    color: white;
+  }

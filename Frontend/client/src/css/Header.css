@@ -1,0 +1,28 @@
+
+  
+  .wrapper {
+    display:flex;
+    justify-content: flex-end;
+    background: #343434;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+ 
+  .main-nav a {
+    background: #343434;
+  }
+  
+  nav a {
+    color: inherit;
+    display: inline-block;
+    padding: 17px 25px;
+    text-align: center;
+  }
+  
+  a.sens:hover,
+  a.sens:active {
+    background: #A62A2A;
+  }
+  
